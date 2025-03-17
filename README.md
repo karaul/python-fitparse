@@ -24,6 +24,12 @@ Install from [![PyPI](https://img.shields.io/pypi/v/fitparse.svg)](https://pypi.
 pip install fitparse
 ```
 
+To install the from specified location with fixed check_developer_data bug
+```
+!pip install git+https://github.com/AartGoossens/python-fitparse@feature/check_developer_data
+```
+
+
 FIT files
 ------------
 - FIT files contain data stored in a binary file format.
@@ -125,11 +131,6 @@ The old version is archived as
   * Support for parsing one record at a time. This can be done using
     `<FitFile>.parse_one()` for now, but I'm not sure of the exact
     implementation yet.
-
-To install the from specified location with fixed check_developer_data bug
-```
-!pip install git+https://github.com/AartGoossens/python-fitparse@feature/check_developer_data
-```
 
 Updating to new FIT SDK versions
 --------------------------------
