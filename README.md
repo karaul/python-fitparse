@@ -126,6 +126,10 @@ The old version is archived as
     `<FitFile>.parse_one()` for now, but I'm not sure of the exact
     implementation yet.
 
+To install the from specified location with fixed check_developer_data bug
+```
+!pip install git+https://github.com/AartGoossens/python-fitparse@feature/check_developer_data
+```
 
 Updating to new FIT SDK versions
 --------------------------------
